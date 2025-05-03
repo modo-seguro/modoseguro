@@ -1,5 +1,4 @@
 
-//esta lista contiene "errores" que en realidad no son mas que objetos que NO repara el servicio.
 let mistake=[
     "heladeras",
     "muebles",
@@ -60,6 +59,6 @@ setTimeout(() => {
         if (index >= text.length) {
             clearInterval(interval);
         }
-    }, Math.floor(Math.random() * 60)+40);
+    }, Math.floor(Math.random() * 70)+60);
 
 }, 1000)
